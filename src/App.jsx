@@ -27,7 +27,7 @@ function Section({ name }) {
             <li className="custom-option" key={option.id}>
               <input type="radio" name={name} id={option.name} />
               <label htmlFor={option.name}>
-                <img src={option.url} alt={option.name} width={175} height={175}/>
+                <img src={option.url} alt={option.name}/>
                 <div className="name">{option.name}</div>
               </label>
             </li>
